@@ -1,0 +1,22 @@
+{
+    "mcpServers": 
+ {
+        "Unity-MCP" : {
+        "type": "sse",
+        "url": "http://unity-mcp-server:8081/sse"
+      },
+      
+        "Qdrant-Admin": {
+        "type": "sse",
+        "url": "http://qdrant-mcp-server:8080/sse"
+      },
+      "agent-zero": {
+      "type": "sse",
+      "url": "http://localhost:50001/mcp/t-MmjjQKyVh0Rhb_EJ/sse"
+    },
+    "agent-zero-http": {
+      "type": "streamable-http",
+      "url": "http://localhost:50001/mcp/t-MmjjQKyVh0Rhb_EJ/http"
+    }
+ }
+}
