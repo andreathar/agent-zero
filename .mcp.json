@@ -17,6 +17,10 @@
     "agent-zero-http": {
       "type": "streamable-http",
       "url": "http://localhost:50001/mcp/t-MmjjQKyVh0Rhb_EJ/http"
+    },
+    "lmstudio": {
+      "type": "sse",
+      "url": "http://lmstudio-mcp-server:8080/sse"
     }
  }
 }
